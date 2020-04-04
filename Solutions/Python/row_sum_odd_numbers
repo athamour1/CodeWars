@@ -1,0 +1,4 @@
+def row_sum_odd_numbers(n):
+    x = n ** 2 - (n - 1)
+    print(x)
+    return sum(range(x, x + n * 2, 2))
